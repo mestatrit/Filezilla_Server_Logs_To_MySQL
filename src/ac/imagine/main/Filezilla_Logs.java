@@ -82,9 +82,9 @@ public class Filezilla_Logs {
 			}
 			try {
 				upbdd.insertListFiles(daoFactory, filezillaList);
-				logger.info(" Successful update ");
+				logger.info(" Successful insert of the : " + dateNowFormat);
 			} catch (DAOException e) {
-				logger.error(" error during update " + e.getMessage());
+				logger.error(" error during events insert " + e.getMessage());
 			}finally{
 				filezillaList = null;
 			}

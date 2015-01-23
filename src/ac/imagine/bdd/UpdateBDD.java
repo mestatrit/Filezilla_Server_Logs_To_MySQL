@@ -30,7 +30,7 @@ public class UpdateBDD {
 	/**
 	 * SQL query for insert the datas in the database
 	 */
-	private static final String SQL_INSERT_EVENT = "INSERT INTO files (filezilla_id, date, account, ip , code, fileName, type) VALUES (?, ?, ?, ?, ?, ?, ?) ";
+	private static final String SQL_INSERT_EVENT = "INSERT INTO events (filezilla_id, date, account, ip , code, fileName, type) VALUES (?, ?, ?, ?, ?, ?, ?) ";
 	
 	/**
 	 * Insert the list of events into the database

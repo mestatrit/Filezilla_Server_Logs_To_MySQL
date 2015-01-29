@@ -31,16 +31,11 @@ User = Filezilla
 
 Password = password
 
-Script to launch the "runFilezillaLogs_ToMySQL.bat" program:
-java -jar "C:\\ Filezilla_Server_Logs_To_MySQL.jar"
-
-Placing these two files and the jar "Filezilla_Server_Logs_To_MySQL.jar" to C:\\
-
-Double click on the "runFilezillaLogs_ToMySQL.bat" file to start the program.
+Double click on the "runFilezillaLogs_ToMySQL.jar" file to start the program.
 You can check that everything went well by consulting the log file generated in the same place: "Filezilla_Server_Logs_To_MySQL.log."
 
 #To log the execution of the program
-you can use the tasks planner in Windows :
+You can use the tasks planner in Windows :
 
 Program script: C:\Program Files\Java\jre8\bin\java.exe
 
